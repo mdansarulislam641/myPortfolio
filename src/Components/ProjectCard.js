@@ -4,7 +4,9 @@ const ProjectCard = ({item}) => {
     const {image, name, technology,codeLink, liveLink} = item ;
     return (
         <div  className="card w-full  bg-base-100 shadow-xl">
-        <figure><img className=' overflow-y-scroll' src={image} alt="Shoes" /></figure>
+        <div className='w-full h-48 overflow-y-auto'>
+                <img className='w-full h-96 ' src={image} alt="" />
+            </div>
         <div className="card-body">
           <h2 className="text-2xl capitalize  text-center">
             {name}
@@ -17,6 +19,7 @@ const ProjectCard = ({item}) => {
             <div className="btn btn-primary w-full"><a href={liveLink}>liveLink</a></div>
           </div>
         </div>
+        
       </div>
     );
 };

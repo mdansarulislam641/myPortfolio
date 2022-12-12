@@ -1,10 +1,12 @@
 import Home from "./Components/Home";
-
+import './App.css'
+import { Toaster } from "react-hot-toast";
 function App() {
   return (
-  <div className="bg-gradient-to-r from-blue-500 to-gray-700">
-      <div className="max-w-screen-xl mx-auto">
+  <div className=" gradiant">
+      <div className="">
       <Home></Home>
+      <Toaster></Toaster>
     </div>
   </div>
   );

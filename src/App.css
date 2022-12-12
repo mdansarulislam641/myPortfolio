@@ -23,7 +23,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.gradiant{
+  /* height: 300px; */
+  background: linear-gradient(120deg, #125e05 1%,#ba9498 20%, #534680 51%, #6cbf7f 85%);
+}
 .App-link {
   color: #61dafb;
 }

@@ -1,0 +1,26 @@
+[
+    {   "id":1,
+        "image": "https://i.ibb.co/vYrv739/optimizedbrainwithquiz-netlify-app.png" ,
+        "name": "Optimized Brain Web App",
+       "technology": ["react", "react-router-dom", "rest api", "react graph"],
+        "codeLink" : "https://github.com/mdansarulislam641/optimized-brain-website",
+        "liveLink" : "https://optimizedbrainwithquiz.netlify.app/"
+
+    },
+    {   "id":2,
+        "image": "https://i.ibb.co/XSwY45Y/resell-product-web-app.png" ,
+        "name": "Second Hand Laptop Resell",
+       "technology": ["react", "react-router-dom", "rest api", "mongodb", "express", "nodejs", "admin route"],
+        "codeLink" : "https://github.com/mdansarulislam641/resell-laptop-client",
+        "liveLink" : "https://resell-product.web.app/"
+
+    },
+    {   "id":3,
+        "image": "https://i.ibb.co/hK5nT7D/genius-cart-6d01c-web-app.png" ,
+        "name": "Online Computer Service",
+       "technology": ["react", "react-router-dom", "rest api", "mongodb", "express", "nodejs", "admin route"],
+        "codeLink" : "https://github.com/mdansarulislam641/computer-online-service-client",
+        "liveLink" : "https://genius-cart-6d01c.web.app/"
+
+    }
+]

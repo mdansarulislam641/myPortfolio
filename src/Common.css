@@ -1,0 +1,12 @@
+.bg{
+    background: linear-gradient(130deg, #202a6a 10%, #011c1f 51%, #3c066e 75%);
+   overflow: hidden;
+    opacity: .6;
+    box-shadow: 20px 10px 20px 16px rgba(129, 16, 16, 0.2);
+}
+.bgg{
+    background: linear-gradient(141deg, #351810 0%, #02064e 51%, #043306 75%);
+    opacity: 1;
+    overflow: hidden;
+    /* box-shadow: 20px 10px 20px 16px rgba(169, 27, 27, 0.2); */
+}

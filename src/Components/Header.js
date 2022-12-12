@@ -3,9 +3,9 @@ import React from 'react';
 const Header = () => {
    
     return (
-        <div className='text-white'>
+        <div className='text-white sticky top-0 z-10 bg-gray-600 '>
         
-            <div className="navbar">
+            <div className="navbar max-w-screen-xl mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
     
@@ -20,7 +20,7 @@ const Header = () => {
         <li><a href='#contact-me'>Contact</a></li>
       </ul>
     </div>
-    <a className="normal-case text-xl">ANSARUL</a>
+    <a href='/' className="font-extrabold font-mono   text-3xl text-amber-600">ANSARUL</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -32,7 +32,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className='text-white ' target='_blank' href='https://drive.google.com/drive/u/0/folders/1QrOSA_4DoyejA9keZbqo8PEVxcCoEAsU' download='https://drive.google.com/drive/u/0/folders/1QrOSA_4DoyejA9keZbqo8PEVxcCoEAsU' className="btn btn-primary">Get Resume</a>
+    <a  target='_blank' href='https://drive.google.com/drive/u/0/folders/1QrOSA_4DoyejA9keZbqo8PEVxcCoEAsU' download='https://drive.google.com/drive/u/0/folders/1QrOSA_4DoyejA9keZbqo8PEVxcCoEAsU' className="btn btn-primary">Get Resume</a>
   </div>
 </div>
         </div>

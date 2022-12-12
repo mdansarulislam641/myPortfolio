@@ -1,32 +1,29 @@
 import React from 'react';
 
 const Skills = () => {
+    const skills = [
+        "HTML",  "CSS",'Jquery', "Bootstrap",'Tailwind', 'JavaScript', 'Mongodb'
+        ,'NodeJs', 'Express','Firebase','Github','Vercel'
+    ]
     return (
-        <div  data-aos="fade-left" className='py-20' id='skills'>
-            <h1 className='divider font-extrabold divide-violet-800 font-mono uppercase  text-6xl '>My skills</h1>
+       <section id='skills' className='bgg py-20'>
+         <div  data-aos="fade-left" className='max-w-screen-xl mx-auto' >
+            <h1 className=' font-extrabold  font-mono uppercase text-4xl text-amber-600 md:text-6xl divider'>My skills</h1>
 
-            <div  data-aos="fade-right" className='grid grid-cols-2 justify-items-center  sm:grid-cols-3 md:grid-cols-4  lg:grid-cols-5 gap-y-10 py-20'>
-                {/* for html */}
-            <div className="radial-progress bg-primary text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":90}}>90% <br /> HTML</div>
-                {/* for CSS */}
-            <div className="radial-progress bg-primary text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":80}}>80% <br /> CSS</div>
-                {/* for Bootstrap */}
-            <div className="radial-progress bg-primary text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":85}}>85% <br /> Bootstrap</div>
-                {/* for JQuery */}
-            <div className="radial-progress bg-primary text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":60}}>60% <br /> JQuery</div>
-                {/* for Tailwind CSS */}
-            <div className="radial-progress bg-primary text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":90}}>90% <br /> Tailwind CSS</div>
-                {/* for Tailwind MongoDb */}
-            <div className="radial-progress bg-primary text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":55}}>55% <br />MongoDb</div>
-                {/* for Tailwind ExpressJs */}
-            <div className="radial-progress bg-primary text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":95}}>95% <br />ExpressJs</div>
-                {/* for react */}
-            <div className="radial-progress bg-primary text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":70}}>70% <br /> ReactJs</div>
-                {/* for NodeJs */}
-            <div className="radial-progress bg-gray-500 text-primary-content border-4 text-center w-32 h-32 border-primary" style={{"--value":50}}>50% <br /> NodeJs</div>
+            <div className='flex justify-between py-20 gap-10 items-center '>
+                <div className='flex-1'>
+                   <p className='text-white text-justify text-xl capitalize'>I have been in the web development sector for almost a long year. During this time I have learned mern and am learning new tools, components every day, I am eager to accept challenges in any situation, also able to change myself as the technology changes in the future Insha Allah.</p>
+                </div>
+                <div className='grid grid-cols-4 gap-y-5 flex-1'>
+                    {
+                        skills.map((skill, idx) => <button className='text-white border mx-2 px-5 py-2 rounded border-amber-500 cursor-default text-xl' key={idx}>{skill}</button>)
+                    }
+                </div>
             </div>
+          
 
         </div>
+       </section>
 
       
     );
