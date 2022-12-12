@@ -9,7 +9,7 @@ const Banner = () => {
     onLoopDone: () => console.log(`loop completed after 3 runs.`)
   })
     return (
-        <div className='bgg h-[80vh] flex justify-center items-center'>
+        <div id='home' className='bgg h-[80vh] flex justify-center items-center'>
             <div className=' h-[70vh] md:h-[60vh] rounded-3xl shadow-2xl  shadow-orange-100 w-[80vw] md:w-[70vw] lg:w-[50vw] bgg flex items-center justify-center'>
               <div className='py-10'>
               <h2 className='text-center text-white text-2xl md:text-4xl py-5'>MD ANSARUL HAQUE</h2>

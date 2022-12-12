@@ -10,3 +10,41 @@
     overflow: hidden;
     /* box-shadow: 20px 10px 20px 16px rgba(169, 27, 27, 0.2); */
 }
+
+
+
+.content {
+    position: relative;
+  }
+  .screen {
+      display: block;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      border: 2px solid #b3b3b3;
+      border-radius: 6px;
+      margin: 0 auto;
+  }
+  .screen img {
+      top:0px;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      z-index: 0;
+    margin:0;
+    padding:0;
+      -webkit-transition: bottom 6s;
+      -moz-transition: bottom 6s;
+      -ms-transition: bottom 6s;
+      -o-transition: bottom 6s;
+      transition:top 6s;
+  }
+  .screen:hover img {
+    top: -600px;
+    -webkit-transition: all 6s;
+    -moz-transition: all 6s;
+    -ms-transition: all 6s;
+    -o-transition: all 6s;
+    transition: all 6s;
+  }

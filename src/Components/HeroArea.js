@@ -1,9 +1,10 @@
 import React from 'react';
 import profile from "../assets/profile.jpg";
+import ParticalBackground from './ParticalBackground';
 const HeroArea = () => {
     return (
         <div  data-aos="fade-in" className='flex flex-col-reverse md:flex-row justify-between py-24 mx-10'>
-            
+            <ParticalBackground></ParticalBackground>
             <div className=''>
                 <h2 className='md:text-4xl text-2xl text-white font-extrabold font-mono'>Hi I'm MD ANSARUL HAQUE</h2>
                 <h2 className='text-6xl font-bold font-mono'>I am A Front-end Developer <br /> ReactJs Developer</h2>

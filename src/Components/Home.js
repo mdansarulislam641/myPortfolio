@@ -3,8 +3,8 @@ import React from 'react';
 import AboutMe from './AboutMe';
 import Banner from './Banner';
 import ContactMe from './ContactMe';
+import Footer from './Footer';
 import Header from './Header';
-import HeroArea from './HeroArea';
 import Projects from './Projects';
 import Services from './Services';
 import Skills from './Skills';
@@ -20,6 +20,7 @@ const Home = () => {
             <Services></Services>
             <Projects></Projects>
             <ContactMe></ContactMe>
+            <Footer></Footer>
         </div>
     );
 };
