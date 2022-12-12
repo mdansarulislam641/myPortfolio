@@ -1,6 +1,7 @@
 
 import React from 'react';
 import AboutMe from './AboutMe';
+import Array from './Array';
 import Banner from './Banner';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
@@ -21,6 +22,7 @@ const Home = () => {
             <Projects></Projects>
             <ContactMe></ContactMe>
             <Footer></Footer>
+            <Array></Array>
         </div>
     );
 };

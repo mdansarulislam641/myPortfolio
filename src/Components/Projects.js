@@ -8,11 +8,10 @@ const Projects = () => {
         .then(res=>res.json())
         .then(data => {
             setProjectInfo(data)
-            console.log(data)
             setLoading(false)
         })
     },[loading])
-console.log(projectInfo)
+
     if(loading){
         return <div>Loading......</div>
     }

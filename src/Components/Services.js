@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaAmazon, FaCode, IconName } from "react-icons/fa";
+import {  FaCode} from "react-icons/fa";
 const Services = () => {
     return (
        <section className='bgg py-20'>
@@ -12,6 +12,7 @@ const Services = () => {
                     <h3 className='text-3xl  text-amber-600'>MERN Stack Development Service</h3>
                     <p className='py-5 text-xl px-5 max-w-xl mx-auto'>I provides Mern Stack development services, fully responsive web site design  and server integrity. We provide complete web site services</p>
                     <button className='btn btn-outline border border-amber-500 text-white'>hire me</button>
+               
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from '../assets/profile-2.jpg';
-
+import resume from '../assets/myresumiscic.pdf';
 const AboutMe = () => {
     return (
   <div id='about' className='bgg  py-20'>
@@ -14,7 +14,7 @@ const AboutMe = () => {
         <h3 className='text-5xl font-extrabold font-mono text-white'>Hello</h3>
         <p className='py-5 text-center md:text-justify text-white text-xl'>I'm Md Ansarul Haque , a Front-end Developer . i develop full blown web applications using the MERN stack , but i mostly love working in the front end using tailwind css and react . One od my favorite activities is to educated and help others in the field to fulfill their potential and depend my knowledge. You can find more about this on my resume. </p>
        <div className='text-center md:text-left'>
-       <button className='text-white rounded-lg py-2  hover:bg-amber-900 border px-10 text-2xl border-red-400'> <a href="https://drive.google.com/drive/u/0/folders/1QrOSA_4DoyejA9keZbqo8PEVxcCoEAsU" target='_blank'>resume</a> </button>
+       <button className='text-white rounded-lg py-2  hover:bg-amber-900 border px-10 text-2xl border-red-400'> <a href={resume} download='resume'>resume</a> </button>
        </div>
        </div>
 

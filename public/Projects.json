@@ -2,7 +2,7 @@
     {   "id":1,
         "image": "https://i.ibb.co/vYrv739/optimizedbrainwithquiz-netlify-app.png" ,
         "name": "Optimized Brain Web App",
-       "technology": ["react", "react-router-dom", "rest api", "react graph"],
+       "technology": ["react", "router", "rest api", "react graph"],
         "codeLink" : "https://github.com/mdansarulislam641/optimized-brain-website",
         "liveLink" : "https://optimizedbrainwithquiz.netlify.app/"
 

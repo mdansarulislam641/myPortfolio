@@ -1,15 +1,15 @@
-import Home from "./Components/Home";
+
 import './App.css'
 import { Toaster } from "react-hot-toast";
-import ParticalBackground from "./Components/ParticalBackground";
+import { RouterProvider } from "react-router-dom";
+import router from "./Components/Routes";
 function App() {
   return (
-  <div className=" gradiant">
-      <div className="">
-      <Home></Home>
-        <ParticalBackground></ParticalBackground>
+  <div>
+    <RouterProvider router={router}>
+    </RouterProvider>
       <Toaster></Toaster>
-    </div>
+     
   </div>
   );
 }

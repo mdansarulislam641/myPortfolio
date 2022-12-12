@@ -16,6 +16,7 @@ const ContactMe = () => {
             e.target.reset()
         }, (error) => {
             console.log(error.text);
+            toast.error(error.text)
         });
     };
 
@@ -29,11 +30,11 @@ const ContactMe = () => {
                 <div className='text-center md:text-left'>
                     <p className='text-xl text-white'>i'd love if your reached out to me. even it's just to say "Hey!" Don't hesitate Drop me a Line and i'll get back to you ASAP! </p>
                    <h2 className='text-amber-400 text-xl'>Email : mdansarulislam641@gmail.com</h2>
-                   <h3 className='text-xl text-amber-700'>Phone : 01786891119</h3>
+                   <h3 className='text-xl text-amber-400'>Phone : 01786891119</h3>
                    <h4 className='text-amber-400 text-xl'>Location : Thakurgaon , Rangpur</h4>
-                   <a className='text-xl hover:text-amber-500  text-white link link-hover' href="https://github.com/mdansarulislam641">github</a>
-                   <a className='text-xl  hover:text-amber-500 mx-2 text-white link link-hover' href="https://www.linkedin.com/in/md-ansarul-haque/">Linkedin</a>
-                   <a className='text-xl  hover:text-amber-500 text-white link link-hover' href="https://www.linkedin.com/in/md-ansarul-haque/">facebook</a>
+                   <a className='text-xl hover:text-amber-500  text-white link link-hover' href="https://github.com/mdansarulislam641">github |</a>
+                   <a className='text-xl  hover:text-amber-500 mx-2 text-white link link-hover' href="https://www.linkedin.com/in/md-ansarul-haque/">Linkedin |</a>
+                   <a className='text-xl  hover:text-amber-500 text-white link link-hover' href="https://www.linkedin.com/in/md-ansarul-haque/"> facebook</a>
 
                 </div>
                 <div>
