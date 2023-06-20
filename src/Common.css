@@ -10,10 +10,13 @@
   /* background-image: url('path/to/your/image.jpg'); */
   background-size: cover;
   background-position: center;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
   background-color: #f2f2f2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
+}
+.about-me-bg{
+  background-image: linear-gradient( teal,teal , darkgray   );
 }
 
 #bgg {
