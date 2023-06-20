@@ -2,12 +2,22 @@
     {
         "id":1,
         "name":"Optimized Brain Web App",
-        "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed"
+        "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed",
+        "images":[
+        "https://i.ibb.co/0fFBkK6/optimizedbrainwithquiz-netlify-app-1.png",
+        "https://i.ibb.co/z4LYpNR/optimizedbrainwithquiz-netlify-app-2.png",
+        "https://i.ibb.co/dQ1bZnN/optimizedbrainwithquiz-netlify-app-3.png"
+        ]
     },
     {
         "id":2,
         "name":"Second Hand Laptop Resell",
-        "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed"
+        "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed",
+        "images":[
+        "https://i.ibb.co/b3tqMND/resell-product-web-app-category-637f175497b6fd2b09f91495.png"  ,
+        "https://i.ibb.co/VDFJv41/resell-product-web-app-category-637f175497b6fd2b09f91495-1.png",
+        "https://i.ibb.co/XSwY45Y/resell-product-web-app.png"
+        ]
     },
     {
         "id":3,

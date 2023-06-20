@@ -6,9 +6,9 @@ import Banner from './Banner';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
 import Header from './Header';
-import Projects from './Projects';
-import Services from './Services';
+
 import Skills from './Skills';
+import Cards from './WhatProvide/Cards';
 
 const Home = () => {
     return (
@@ -18,8 +18,8 @@ const Home = () => {
             {/* <HeroArea></HeroArea> */}
             <AboutMe></AboutMe>
             <Skills></Skills>
-            <Services></Services>
-            <Projects></Projects>
+            {/* <Services></Services> */}
+            <Cards></Cards>
             <ContactMe></ContactMe>
             <Footer></Footer>
             <Array></Array>

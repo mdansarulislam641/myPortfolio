@@ -4,7 +4,9 @@
         "name": "Optimized Brain Web App",
        "technology": ["react", "router", "rest api", "react graph"],
         "codeLink" : "https://github.com/mdansarulislam641/optimized-brain-website",
-        "liveLink" : "https://optimizedbrainwithquiz.netlify.app/"
+        "liveLink" : "https://optimizedbrainwithquiz.netlify.app/",
+        "backgroundColor": "#f1f1f1",
+        "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed"
 
     },
     {   "id":2,
@@ -12,7 +14,9 @@
         "name": "Second Hand Laptop Resell",
        "technology": ["react","mongodb","express","nodejs" ],
         "codeLink" : "https://github.com/mdansarulislam641/resell-laptop-client",
-        "liveLink" : "https://resell-product.web.app/"
+        "liveLink" : "https://resell-product.web.app/",
+        "backgroundColor": "#f9f9f9",
+        "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed"
 
     },
     {   "id":3,
@@ -20,7 +24,9 @@
         "name": "Online Computer Service",
        "technology": ["react","mongodb","express","nodejs"],
         "codeLink" : "https://github.com/mdansarulislam641/computer-online-service-client",
-        "liveLink" : "https://genius-cart-6d01c.web.app/"
+        "liveLink" : "https://genius-cart-6d01c.web.app/",
+        "backgroundColor": "#f1f1f1",
+        "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed"
 
     }
 ]

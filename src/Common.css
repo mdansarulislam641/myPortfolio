@@ -1,53 +1,118 @@
-.bg{
-    background: linear-gradient(130deg, #202a6a 10%, #011c1f 51%, #3c066e 75%);
-   overflow: hidden;
-    opacity: .6;
-    box-shadow: 20px 10px 20px 16px rgba(129, 16, 16, 0.2);
-}
-.bgg{
-    /* background: linear-gradient(141deg, #351810 0%, #02064e 51%, #043306 75%); */
-    background:linear-gradient(20deg, #012340 0%, #021641 51%,
-    #012340 87%);
-    /* background: #182625; */
-    opacity: 1;
-    overflow: hidden;
-    /* box-shadow: 20px 10px 20px 16px rgba(169, 27, 27, 0.2);  */
+#bg {
+  background: linear-gradient(130deg, #202a6a 10%, #011c1f 51%, #3c066e 75%);
+  overflow: hidden;
+  opacity: .6;
+  box-shadow: 20px 10px 20px 16px rgba(129, 16, 16, 0.2);
 }
 
+.bg-header{
+  background: linear-gradient(  #5ca1dd , #021641  )
+}
+
+#bgg {
+  /* background: linear-gradient(141deg, #351810 0%, #02064e 51%, #043306 75%); */
+  background: linear-gradient(20deg, #012340 0%, #021641 51%,
+      #012340 87%);
+  /* background: #182625; */
+  opacity: 1;
+  overflow: hidden;
+  /* box-shadow: 20px 10px 20px 16px rgba(169, 27, 27, 0.2);  */
+}
+
+;
+
+.text-color-style-custom{
+  /* background-image: linear-gradient(to right , red , black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color:red
+}
+.texttt{
+  color: red;
+  background-color: red;
+}
 
 
+/* this is for project card image hover effect  */
 .content {
-    position: relative;
-  }
-  .screen {
-      display: block;
-      width: 100%;
-      height: 200px;
-      overflow: hidden;
-      position: relative;
-      border: 2px solid #b3b3b3;
-      border-radius: 6px;
-      margin: 0 auto;
-  }
-  .screen img {
-      top:0px;
-      width: 100%;
-      height: auto;
-      position: absolute;
-      z-index: 0;
-    margin:0;
-    padding:0;
-      -webkit-transition: bottom 6s;
-      -moz-transition: bottom 6s;
-      -ms-transition: bottom 6s;
-      -o-transition: bottom 6s;
-      transition:top 6s;
-  }
-  .screen:hover img {
-    top: -600px;
-    -webkit-transition: all 6s;
-    -moz-transition: all 6s;
-    -ms-transition: all 6s;
-    -o-transition: all 6s;
-    transition: all 6s;
-  }
+  position: relative;
+}
+
+.screen {
+  display: block;
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #b3b3b3;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.screen img {
+  top: 0px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: bottom 6s;
+  -moz-transition: bottom 6s;
+  -ms-transition: bottom 6s;
+  -o-transition: bottom 6s;
+  transition: top 6s;
+}
+
+.screen:hover img {
+  top: -600px;
+  -webkit-transition: all 6s;
+  -moz-transition: all 6s;
+  -ms-transition: all 6s;
+  -o-transition: all 6s;
+  transition: all 6s;
+}
+
+;
+
+
+/* this is for details page image hover effect  */
+.detailsScreen {
+  display: block;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #b3b3b3;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.detailsScreen img {
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: bottom 6s;
+  -moz-transition: bottom 6s;
+  -ms-transition: bottom 6s;
+  -o-transition: bottom 6s;
+  transition: top 6s;
+}
+
+.detailsScreen:hover img {
+  top: -600px;
+  -webkit-transition: all 6s;
+  -moz-transition: all 6s;
+  -ms-transition: all 6s;
+  -o-transition: all 6s;
+  transition: all 6s;
+}
+
+/* custom border  */
+.custom-border{
+  border: 1px solid  #8a8484;
+}

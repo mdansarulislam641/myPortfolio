@@ -11,19 +11,12 @@ const Banner = () => {
     onLoopDone: () => console.log(`loop completed after 3 runs.`)
   })
     return (
-        <div id='home' className='bgg h-[80vh] flex justify-center items-center'>
+        <div id='home' className='bg-header h-[80vh] flex justify-center items-center relative'>
         
-            <div className='hover:animate-pulse h-[70vh] md:h-[60vh] rounded-3xl shadow-2xl  shadow-orange-100 w-[80vw] md:w-[70vw] lg:w-[50vw] bgg flex items-center justify-center'>
+            <div className=' data-aos="fade-left" data-aos-id="super-duper" h-[70vh] md:h-[60vh] rounded-3xl shadow-2xl  shadow-orange-100 w-[80vw] flex items-center justify-center'>
               <div className='py-10'>
-              <h2 className='text-center text-white text-2xl md:text-4xl py-5 animate-pulse'>MD ANSARUL HAQUE</h2>
-             
-                <h3 className='uppercase text-2xl md:text-3xl lg:text-5xl text-center font-extrabold font-mono text text-amber-600 px-5'>I'm a <span>{text}</span>
+                <h3 className='uppercase text-2xl md:text-3xl lg:text-5xl text-center font-extrabold font-mono text text-amber-600 px-5'>I'm a <span className='text-white'>{text}</span>
       <Cursor cursorColor='red' /></h3>
-
-
-             
-
-
 
                 <h4 className='text-2xl md:text-3xl text-center py-5 text-white'>HTML | CSS | JavaScript | React | NodeJs</h4>
                 <div className='text-center flex gap-x-5 justify-center py-10'>
