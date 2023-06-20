@@ -6,7 +6,7 @@
 }
 
 .bg-header{
-  background-image: linear-gradient( darkgray, darkgray   );
+  background-image: linear-gradient( teal,teal , darkgray   );
   /* background-image: url('path/to/your/image.jpg'); */
   background-size: cover;
   background-position: center;
