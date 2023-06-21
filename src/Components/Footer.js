@@ -1,18 +1,26 @@
 import React from 'react';
+import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs';
 
 const Footer = () => {
     return (
-        <footer className='bgg py-20 text-center' >
+        <footer className='bg-gray-900 py-20 text-center' >
            <div className='max-w-screen-xl mx-auto'>
-           <h2 className='text-amber-600 text-5xl text-extrabold font-bold'><a href="#home">Portfolio</a></h2>
+           <h2 className='text-color text-5xl text-extrabold font-bold'><a href="#home">Portfolio</a></h2>
          
-           <p className='text-white'>12/12/2022</p>
+           <p className='text-white my-2'>12/12/2022</p>
            <div>
-            <h2 className='text-xl text-amber-400'>Social Media</h2>
-           <a className='text-xl hover:text-amber-500  text-white link link-hover' href="https://github.com/mdansarulislam641">github |</a>
-                   <a className='text-xl  hover:text-amber-500 mx-2 text-white link link-hover' href="https://www.linkedin.com/in/md-ansarul-haque/">Linkedin |</a>
-                   <a className='text-xl  hover:text-amber-500 text-white link link-hover' href="https://www.linkedin.com/in/md-ansarul-haque/"> facebook</a>
-                   <p className='text-white'>  copyright Md Ansarul Haque</p>
+            <div className="flex justify-center gap-5 pt-2 z-40">
+              <a href="https://www.facebook.com/md.ansarulislam.641" target="_blank" rel="noopener noreferrer"> <BsFacebook size={30} className=" text-gray-100 cursor-pointer" /></a>
+             
+              <a href="https://www.linkedin.com/in/md-ansarul-haque/" target="_blank" rel="noopener noreferrer">
+              <BsLinkedin size={30} className=" text-gray-100 cursor-pointer"/>
+              </a>
+              <a href="https://github.com/mdansarulislam641" target="_blank" rel="noopener noreferrer">
+              <BsGithub size={30} className=" text-gray-100 cursor-pointer"/>
+              </a>
+              
+            </div>
+                   <p className='text-white my-2'>  copyright Md Ansarul Haque</p>
            </div>
            </div>
         </footer>
