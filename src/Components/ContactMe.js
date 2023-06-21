@@ -3,6 +3,9 @@ import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
 import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs';
+import {MdContactPhone, MdEmail, MdOutlineLocationOn} from 'react-icons/md';
+import sms from '../assets/95852-contact.gif'
+
 const ContactMe = () => {
 
     const form = useRef();
@@ -22,17 +25,24 @@ const ContactMe = () => {
     };
 
     return (
-        <section id='contact-me' className='py-20 bgg '>
+        <section id='contact-me' className='py-20 '>
           <div className='mx-5'>
           <div className='pb-10'>
           <h1  data-aos="fade-down" className='text-color text-5xl font-extrabold font-mono text-center uppercase'>Contact Me </h1><h2 className='text-center text-white text-xl mt-0'>Get In Touch</h2>
           </div>
+             
             <div className='grid grid-cols-1  md:grid-cols-2 gap-10 items-center max-w-screen-xl mx-auto'>
-                <div  data-aos="fade-down" className='text-center md:text-left'>
+                <div  data-aos="fade-down" className='text-center md:text-left'> 
+                <div className='text-center flex items-center justify-center'>
+                <img   src={sms} alt="" />
+                </div>
                     <p className='text-xl text-white'>i'd love if your reached out to me. even it's just to say "Hey!" Don't hesitate Drop me a Line and i'll get back to you ASAP! </p>
-                   <h2 className='text-color text-xl'>Email : mdansarulislam641@gmail.com</h2>
-                   <h3 className='text-xl text-color'>Phone : 01786891119</h3>
-                   <h4 className='text-color text-xl'>Location : Thakurgaon , Rangpur</h4>
+            
+                  
+                   <h2 className='text-color text-xl flex items-center gap-1'> <MdEmail/>mdansarulislam641@gmail.com</h2>
+                
+                   <h3 className='text-xl text-color flex items-center gap-2'><MdContactPhone/> 01786891119</h3>
+                   <h4 className='text-color flex items-center gap-1 text-xl'><MdOutlineLocationOn/> Thakurgaon , Rangpur</h4>
                       {/* social icons  */}
             <div className="flex justify-start gap-5 pt-2 z-40">
               <a href="https://www.facebook.com/md.ansarulislam.641" target="_blank" rel="noopener noreferrer"> <BsFacebook size={24} className=" text-gray-100 cursor-pointer" /></a>
