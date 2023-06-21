@@ -23,7 +23,7 @@ const Card = ({data, stickyTopSpace}) => {
           {/* technology  */}
           <div className='grid mx-auto my-5  gap-4 grid-cols-2 lg:w-1/2 w-[80%] '>
           {technology?.map((tech , idx) => {
-            return <p className='custom-border lg:px-2 py-1 shadow-md font-bold capitalize rounded-xl text-center'>{tech}</p>
+            return <p key={idx} className='custom-border lg:px-2 py-1 shadow-md font-bold capitalize rounded-xl text-center'>{tech}</p>
           })}
           </div>
           {/* line  */}
@@ -31,7 +31,7 @@ const Card = ({data, stickyTopSpace}) => {
           {/* control  */}
           <div className='grid gap-5 my-5  lg:w-[60%] w-[75%]  justify-items-center  grid-cols-2 mx-auto  '>
            <Link to={codeLink} className='flex sm:w-[140px] lg:w-[80%] justify-center items-center gap-2 border capitalize rounded-xl  font-bold px-3 py-1 border-gray-500'><BsGithub  size={20}/>Code</Link>
-           <Link to={liveLink} className='flex py-1 lg:w-[80%] sm:w-[140px] w-full items-center gap-2 border capitalize justify-center rounded-xl text-center  lg:px-3 border-gray-500 font-bold'>  <FiExternalLink size={20}/>Live Demo</Link>
+           <Link to={liveLink} className='flex py-1 lg:w-[80%] sm:w-[140px] w-full items-center gap-2 border border-[#1d2631] capitalize justify-center rounded-xl text-center  lg:px-3  font-bold'>  <FiExternalLink size={20}/>Live Demo</Link>
           
           </div>
   

@@ -38,8 +38,8 @@ const Cards = () => {
         ))}
     </div>
    <div className='text-center '>
-  { !showLess && <button onClick={handleLoadProjects} className=' border-sky-600 border-2 px-5 py-2 rounded-xl text-white capitalize font-semibold text-xl my-10 bg-purple-500'>Show More</button>}
- { showLess &&  <button onClick={handleLoadLess} className=' border-sky-600 border-2 px-5 py-2 rounded-xl text-white capitalize font-semibold text-xl my-10 bg-purple-500'>Show Less</button>}
+  { !showLess && <button onClick={handleLoadProjects} className=' border-[#34d399] border-2 px-5 py-2 rounded-xl text-white capitalize font-semibold text-xl my-10 bg-transparent'>Show More</button>}
+ { showLess &&  <button onClick={handleLoadLess} className=' border-[#34d399] border-2 px-5 py-2 rounded-xl text-white capitalize font-semibold text-xl my-10 bg-transparent'>Show Less</button>}
    </div>
     </div>
     );
