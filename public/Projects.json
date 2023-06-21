@@ -5,7 +5,7 @@
        "technology": ["react", "router", "rest api", "react graph"],
         "codeLink" : "https://github.com/mdansarulislam641/optimized-brain-website",
         "liveLink" : "https://optimizedbrainwithquiz.netlify.app/",
-        "backgroundColor": "#f1f1f1",
+        "backgroundColor": "#f9f9f9",
         "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed"
 
     },
@@ -15,7 +15,7 @@
        "technology": ["react","mongodb","express","nodejs" ],
         "codeLink" : "https://github.com/mdansarulislam641/resell-laptop-client",
         "liveLink" : "https://resell-product.web.app/",
-        "backgroundColor": "#f9f9f9",
+        "backgroundColor": "#9DB2BF",
         "description":"this is a quiz app, here is some different topic quiz,it improve to your knowledge in this filed"
 
     },

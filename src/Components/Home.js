@@ -7,8 +7,9 @@ import ContactMe from './ContactMe';
 import Footer from './Footer';
 import Header from './Header';
 
-import Skills from './Skills';
+import Skills from './Skills-deprecaded';
 import Cards from './WhatProvide/Cards';
+import Skill from './Skill';
 
 const Home = () => {
     return (
@@ -17,7 +18,8 @@ const Home = () => {
             <Banner></Banner>
             {/* <HeroArea></HeroArea> */}
             <AboutMe></AboutMe>
-            <Skills></Skills>
+            <Skill/>
+            {/* <Skills></Skills> */}
             {/* <Services></Services> */}
             <Cards></Cards>
             <ContactMe></ContactMe>

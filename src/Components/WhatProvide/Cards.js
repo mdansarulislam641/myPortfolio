@@ -5,7 +5,7 @@ const Cards = () => {
     const stickyTopSpace = 100;
     const [projects, setProjects] = useState([]);
     const [loading , setLoading] = useState(true);
-    const [loadMore , setLoadMore] = useState(2);
+    const [loadMore , setLoadMore] = useState(4);
     const [showLess , setShowLess ] = useState(false);
     useEffect(()=>{
         fetch('Projects.json')
@@ -22,14 +22,16 @@ const Cards = () => {
         setShowLess(!showLess);
     }
     const handleLoadLess = () =>{
-        setLoadMore(2);
+        setLoadMore(4);
         setShowLess(!showLess);
     }
 
         if(loading) return <p>Loading....</p>
 
     return (
-        <div className=" my-20">
+        <div id='projects' className=" my-32">
+            
+            <h1 className=' font-extrabold  font-mono uppercase text-4xl text-color md:text-6xl divider'>projects</h1>
         <div className="space-y-10 max-w-screen-xl px-10 mx-auto ">
         {projects?.length > 0 &&  projects.slice(0,loadMore).map((card, index) => (
             <Card key={card.id} data={card} stickyTopSpace={stickyTopSpace * (index + 1)}></Card>

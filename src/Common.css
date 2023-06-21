@@ -5,31 +5,11 @@
   box-shadow: 20px 10px 20px 16px rgba(129, 16, 16, 0.2);
 }
 
-.bg-header{
-  background-image: linear-gradient( teal,teal , darkgray   );
-  /* background-image: url('path/to/your/image.jpg'); */
-  background-size: cover;
-  background-position: center;
-  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
-  background-color: #f2f2f2;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
-}
-.about-me-bg{
-  background-image: linear-gradient( teal,teal , darkgray   );
+.text-color{
+ color : rgb(52 211 153)
 }
 
-#bgg {
-  /* background: linear-gradient(141deg, #351810 0%, #02064e 51%, #043306 75%); */
-  background: linear-gradient(20deg, #012340 0%, #021641 51%,
-      #012340 87%);
-  /* background: #182625; */
-  opacity: 1;
-  overflow: hidden;
-  /* box-shadow: 20px 10px 20px 16px rgba(169, 27, 27, 0.2);  */
-}
 
-;
 
 .text-color-style-custom{
   /* background-image: linear-gradient(to right , red , black);
@@ -37,10 +17,7 @@
   -webkit-text-fill-color: transparent; */
   color:red
 }
-.texttt{
-  color: red;
-  background-color: red;
-}
+
 
 
 /* this is for project card image hover effect  */
